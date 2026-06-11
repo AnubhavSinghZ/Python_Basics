@@ -1,12 +1,11 @@
-In this Repository I uplooad my practice in Python
-
-# PYTHON WORK
-in this there are various type of code 
-
-#  MOST OF THE PROGRAM IN THIS IS CONDITIONAL STATEMENT
-
-If
-ELse
-Elif
-Elseif
-and loops
+# PYTHON PROGRAMS
+<br>
+Here, I upload all the Python program. 
+<br>
+# Conditional Statement
+<br>
+In this,I have used if Statement, else Statement, elif Statement, and if-elif-else Statement.
+<br>
+I always want to explore the Conditional Statement 
+<br>
+I also do program on Looping Statement.
