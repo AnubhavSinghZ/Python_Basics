@@ -50,7 +50,7 @@ Technologies Used
 How to Run
 
 1. Clone the repository:
-   git clone https://github.com/AnubhavSinghZ/python-basics.git
+   git clone https://github.com/AnubhavSinghZ/Python_Basics.git
 
 2. Open the project folder.
 
