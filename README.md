@@ -9,6 +9,7 @@ alien_color.py
 '''
 A simple program that uses conditional statements to determine outcomes based on the color of an alien.
 '''
+<br>
 check_grade.py
 
 Calculates and displays grades based on marks entered by the user.
@@ -31,6 +32,7 @@ calculator_of_bodmas.py
 A calculator that follows BODMAS rules for arithmetic expressions.
 
 tera mera rishta 
+<br>
 its a song
 Topics Covered
 
