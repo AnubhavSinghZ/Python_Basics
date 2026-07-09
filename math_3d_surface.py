@@ -12,3 +12,4 @@ z=t
 ax.plot(x,y,z,label="Parametric Spiral", color="purple")
 ax.set_title("3D Space Trajectory")
 plt.show()
+#It is a 3D Maths Trajectory Graph on X , Y and Z Axix
