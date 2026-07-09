@@ -11,4 +11,4 @@ for number in numbers:
     print(f"{numbers}{ending}")
 
     #This is a Ordinal Number Program in Python
-    
+    # This is thee basic of the program 
