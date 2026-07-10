@@ -10,7 +10,7 @@ data = {
 
 # Save this data as a CSV file to simulate reading an external file
 df_initial=pd.DataFrame(data)
-df_initial.too_csv("sales_data.csv", index=False)
+df_initial.to_csv("sales_data.csv", index=False)
 print("Step 1: 'sales_data.csv' successfully created!")
 
 # Load the CSV file
