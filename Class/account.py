@@ -8,3 +8,13 @@ class Account:
 acc1= Account("12345","abcde")
 print(acc1.acc_no)
 print(acc1.reset_pass())
+
+
+
+class Person:
+    __name="anonymous"  # conceptual private
+    def __hello():
+        print("hello person")
+p1= Person()
+
+print(p1.__name)
