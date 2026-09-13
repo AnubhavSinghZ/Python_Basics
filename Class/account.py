@@ -1,8 +1,10 @@
 class Account:
-    def __init__(self, acc_no, pas):
+    def __init__(self, acc_no, acc_pas):
         self.acc_no= acc_no
-        self.pas=pas
+        self.__acc_pas=acc_pas
+    def reset_pass():
+        print(self.__acc_pas)
 
 acc1= Account("12345","abcde")
 print(acc1.acc_no)
-print(acc1.pas)
+print(acc1.reset_pass())
