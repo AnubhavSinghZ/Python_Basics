@@ -1,4 +1,5 @@
 class Car:
+    color="white"
     @staticmethod
     def start():
         print("car started")
@@ -14,3 +15,4 @@ car2=ToyotaCar("Hyryder")
 
 print(car1.start())
 print(car2.stop())
+print(car1.color)
