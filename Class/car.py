@@ -13,3 +13,4 @@ car1=ToyotaCar("Fortuner")
 car2=ToyotaCar("Hyryder")
 
 print(car1.start())
+print(car2.stop())
