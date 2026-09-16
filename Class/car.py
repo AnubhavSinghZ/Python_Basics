@@ -6,7 +6,7 @@ class Car:
     @staticmethod
     def stop():
         print("car stopped")
-class ToyotaCar(Car):
+class ToyotaCar(Car): # Inheritance
     def __init__(self, name):
         self.name=name
 car1=ToyotaCar("Fortuner")
