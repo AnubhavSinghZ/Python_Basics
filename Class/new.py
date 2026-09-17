@@ -69,4 +69,47 @@ class SavingsAccount(BankAccount):
 class CreditCard(PaymentProcessor):
     def __init__(self, card_holder, limit):
         self.card_holder = card_holder
-        self.limit = limit
+        self.limit = limit 
+# ==========================================
+    # 4. POLYMORPHISM
+    # ==========================================
+    # Same method name ('process_payment') as BankAccount, but handles behavior differently.
+    def process_payment(self, amount):
+        if amount <= self.limit:
+            self.limit -= amount
+            print(f"Paid ${amount} using Credit Card. Remaining Limit: ${self.limit}")
+        else:
+            print("Credit limit exceeded!")
+
+
+# ==========================================
+# EXECUTION & DEMONSTRATION (Objects & Interaction)
+# ==========================================
+if __name__ == "__main__":
+    print(f"--- Welcome to {BankAccount.bank_name} --- \n")
+
+    # Creating Objects (Instantiation)
+    savings = SavingsAccount("Alice", 1000, 2.5)
+    credit_card = CreditCard("Bob", 5000)
+
+    # 1. Testing Encapsulation
+    print("--- 1. Testing Encapsulation ---")
+    # print(savings.__balance) # <-- UNCOMMENTING THIS WILL RAISE AN ERROR (AttributeError)
+    print(f"Account Holder: {savings.account_holder}")
+    print(f"Initial Balance: ${savings.get_balance()}") # Accessed safely via getter
+    savings.deposit(500) # Modified safely via setter
+    print()
+
+    # 2. Testing Inheritance
+    print("--- 2. Testing Inheritance ---")
+    savings.apply_interest() # Unique method inside the child class
+    print()
+
+    # 3. Testing Polymorphism & Abstraction
+    print("--- 3. Testing Polymorphism & Abstraction ---")
+    # We create a list of different objects that share the same abstract interface
+    payment_methods = [savings, credit_card]
+
+    # The loop triggers the exact same method name, but each object responds differently
+    for method in payment_methods:
+        method.process_payment(200)
