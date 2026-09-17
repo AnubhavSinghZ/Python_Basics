@@ -11,3 +11,16 @@ class PaymentProcessor(ABC):
     def process_payment(self, amount):
         """Abstract method: Must be implemented by all subclasses."""
         pass
+# ==========================================
+# 2. INHERITANCE
+# ==========================================
+# BankAccount is a base (parent) class. 
+# It bundles properties and behaviors that other accounts will inherit.
+class BankAccount(PaymentProcessor):
+    # Class Attribute (shared by all instances)
+    bank_name = "Apex Global Bank"
+    
+    # Constructor (__init__) - Initializes the object
+    def __init__(self, account_holder, initial_balance):
+        self.account_holder = account_holder  # Public attribute
+        
