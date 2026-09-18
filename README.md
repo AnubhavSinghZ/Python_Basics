@@ -12,6 +12,8 @@ Topics Covered
 - Mathematical Operations
 - User Interaction
 - Basic Problem Solving
+- Def Function
+- OOPs Concept
 
 Purpose
 
