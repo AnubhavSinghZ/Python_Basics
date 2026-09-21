@@ -1,3 +1,5 @@
+# 1st Example 
+
 # 1. Define the class blueprint
 class Dog:
     # The constructor method initializes the attributes for every new dog
@@ -12,6 +14,10 @@ class Dog:
 # 2. Create objects (instances) from the class
 dog1 = Dog("Buddy", "Golden Retriever")
 dog2 = Dog("Max", "German Shepherd")
+
+
+
+
 
 # 3. Access attributes and call methods
 print(dog1.name)  # Output: Buddy
