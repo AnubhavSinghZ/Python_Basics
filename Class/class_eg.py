@@ -24,7 +24,7 @@ print(dog1.name)  # Output: Buddy
 print(dog2.bark()) # Output: Max says Woof!
 
 
-
+# 2nd Example
 
 # 1. Define the class blueprint
 class Car:
