@@ -52,3 +52,21 @@ print(my_car.check_speed())       # Output: Current speed: 0 mph.
 print(my_car.accelerate(45))      # Output: The Red Model 3 accelerated to 45 mph.
 print(my_car.check_speed())       # Output: Current speed: 45 mph.
 
+
+
+
+
+# 5. Product: Managing item pricing and details
+
+
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def get_price_tag(self):
+        return f"{self.name} - ${self.price:.2f}"
+
+item = Product("Wireless Mouse", 29.99)
+print(item.get_price_tag())
+
