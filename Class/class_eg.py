@@ -56,7 +56,7 @@ print(my_car.check_speed())       # Output: Current speed: 45 mph.
 
 
 
-# 5. Product: Managing item pricing and details
+# 3rd Example:: Product: Managing item pricing and details
 
 
 class Product:
