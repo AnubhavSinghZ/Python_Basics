@@ -3,7 +3,7 @@ import numpy as np
 fig = plt.subplots(subplot_kw={"projection":"3d"})[0]
 ax=fig.gca()
 
-# Generate parametric data
+# Generate parametric data through library matplotlib
 
 t= np.linspace(0,20,1000)
 x= np.sin(t)*np.exp(t/10)
