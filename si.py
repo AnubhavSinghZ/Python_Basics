@@ -15,5 +15,6 @@ def calculate_si():
     print(f"Simple Interest:{si}")
     print(f"Total Payable Amount:{total_amount}")
     print("-"*30)
+# calling the function
 
 calculate_si()    
