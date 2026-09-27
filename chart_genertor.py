@@ -18,7 +18,7 @@ print("Step 1: 'sales_data.csv' successfully created!")
 df=pd.read_csv("sales_data.csv")
 
 # Create a bar chart : Product name on X Axix, units sold on Y Axis
-plt.bar(df["Product"],df["Units_Sold"], color='skyblue', edgecolor='black')
+plt.bar(df["Product"],df["Units_Sold"], df["Profit"] color='skyblue', edgecolor='black')
 
 # Add Title 
 plt.title("Product Sales Performance", fontsize=14, fontweight="bold")
