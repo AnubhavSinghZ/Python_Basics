@@ -6,6 +6,7 @@ data = {
     "Product": ["Laptops", " Smartphone", "Headphones", "Tablets", "Monitors"],
     "Units_sold": [120, 350, 480, 90, 150],
     "Revenue": [96000, 175000, 24000, 27000, 45000],
+    "Profit": [12000,19000,1200,1900,20000],
 }
 
 # Save this data as a CSV file to simulate reading an external file
