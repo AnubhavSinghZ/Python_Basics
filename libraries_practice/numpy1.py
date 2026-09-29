@@ -5,6 +5,8 @@ x = np.array([1,2,3,4,5,6]) #1d array
 print(x)
 print(type(x))
 
+y= np.array([[1,2,3],[4,5,6]],
+[[8,9,10],[11,12,13])  #2d array
 
 
 # List example
