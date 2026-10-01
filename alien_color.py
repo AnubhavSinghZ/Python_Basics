@@ -6,7 +6,7 @@ else:
 if (alien_color=="green") or (alien_color=="GREEN") or (alien_color=="Green"):
     print("YOU HAVE EARNED 5 POINTS")
 else:
-    print("YOU HAVE EARNED 10 POINTS")
+    print("YOU HAVE EARNED 15 POINTS")
 if (alien_color=="green") or (alien_color=="GREEN") or (alien_color=="Green"):
     print("YOU HAVE EARNED 5 POINTS")
 elif(alien_color=="yellow") or (alien_color=="YELLOW") or (alien_color=="Yellow"):
