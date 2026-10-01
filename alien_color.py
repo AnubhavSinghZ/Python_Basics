@@ -12,4 +12,4 @@ if (alien_color=="green") or (alien_color=="GREEN") or (alien_color=="Green"):
 elif(alien_color=="yellow") or (alien_color=="YELLOW") or (alien_color=="Yellow"):
     print("YOU HAVE EARNED 15 POINTS")
 elif(alien_color=='red') or (alien_color=="RED") or (alien_color=="Red"):
-    print("YOU HAVE EARNED 20 POINTS")
+    print("YOU HAVE EARNED 30 POINTS")
