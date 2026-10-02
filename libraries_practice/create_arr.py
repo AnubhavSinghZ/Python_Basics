@@ -21,3 +21,9 @@ print(np.array(l))
 ar2=np.array([[7,7,7], [8,8,8]])
 print(ar2)
 print(ar2.ndim)
+
+# 3d array
+
+ar3=np.array([[[1,1,1],[1,1,1],[1,1,1]]])
+print(ar3)
+print(ar3.ndim)
