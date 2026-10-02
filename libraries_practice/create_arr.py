@@ -27,3 +27,9 @@ print(ar2.ndim)
 ar3=np.array([[[1,1,1],[1,1,1],[1,1,1]]])
 print(ar3)
 print(ar3.ndim)
+
+
+# multi dimension array
+arn=np.array([10,10,10,10], ndmin=10)  # ndmin is used to define how many dimension you want to create an array 
+print(arn)
+print(arn.ndim)
