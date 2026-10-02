@@ -8,7 +8,16 @@ print(y.ndim) # to check which dimension array is
 
 
 l=[]
+
 for i in range(1,5):
     int_1=int(input("enter:"))
     l.append(int_1)
+    
 print(np.array(l))
+
+
+
+# 2d arraay
+ar2=np.array([[7,7,7], [8,8,8]])
+print(ar2)
+print(ar2.ndim)
