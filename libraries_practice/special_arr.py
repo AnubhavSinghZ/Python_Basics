@@ -24,3 +24,7 @@ ar_dia=np.eye(3) # eye function is used to create diagonal elements filled with 
 print(ar_dia)
 ar_dia1=np.eye(3,5)  
 print(ar_dia1)
+
+print("____LINSPACE_____")
+ar_lin=np.linspace(0,20,num=5)
+print(ar_lin)
