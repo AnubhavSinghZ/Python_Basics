@@ -13,3 +13,7 @@ print(ar_one)
 print("------Empty------")
 ar_emp=np.empty(3)
 print(ar_emp)
+
+print("-------RANGE-------")
+ar_rng=np.arange(3) # it is same as range function in python. like it give the output which you have taken in the function
+print(ar_rng)
