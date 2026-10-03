@@ -17,3 +17,10 @@ print(ar_emp)
 print("-------RANGE-------")
 ar_rng=np.arange(3) # it is same as range function in python. like it give the output which you have taken in the function
 print(ar_rng)
+
+
+print("DIAGONAL")
+ar_dia=np.eye(3) # eye function is used to create diagonal elements filled with 1's
+print(ar_dia)
+ar_dia1=np.eye(3,5)  
+print(ar_dia1)
