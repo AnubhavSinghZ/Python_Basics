@@ -9,3 +9,7 @@ print(ar_zero)
 print("-----Ones------")
 ar_one=np.ones(3)
 print(ar_one)
+
+print("------Empty------")
+ar_emp=np.empty(3)
+print(ar_emp)
